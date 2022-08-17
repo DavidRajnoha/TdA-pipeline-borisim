@@ -2,7 +2,7 @@ name: Push to Docker Hub and deploy to AWS
 
 on: [push]
 
-env:
+#env:
   #DOCKER_USERNAME: secrets.DOCKER_HUB_USERNAME
   #DOCKER_PASSWORD: secrets.DOCKER_HUB_ACCESS_TOKEN
   #AWS_REGION: MY_AWS_REGION                   
