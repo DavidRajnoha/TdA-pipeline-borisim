@@ -9,8 +9,8 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/second-task-definition",
-          "awslogs-region": "us-east-2",
+          "awslogs-group": "/ecs/third-task-definition",
+          "awslogs-region": "eu-west-2",
           "awslogs-stream-prefix": "ecs"
         }
       },
@@ -69,8 +69,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:175011878716:task-definition/second-task-definition:1",
-  "family": "second-task-definition",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-2:175011878716:task-definition/third-task-definition:1",
+  "family": "third-task-definition",
   "requiresAttributes": [
     {
       "targetId": null,
