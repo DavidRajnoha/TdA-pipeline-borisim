@@ -9,8 +9,8 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/first-run-task-definition",
-          "awslogs-region": "eu-west-2",
+          "awslogs-group": "/ecs/second-task-definition",
+          "awslogs-region": "us-east-2",
           "awslogs-stream-prefix": "ecs"
         }
       },
@@ -69,8 +69,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-2:175011878716:task-definition/first-run-task-definition:1",
-  "family": "first-run-task-definition",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:175011878716:task-definition/second-task-definition:1",
+  "family": "second-task-definition",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -101,18 +101,6 @@
       "targetType": null,
       "value": null,
       "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
-    },
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "com.amazonaws.ecs.capability.task-iam-role"
-    },
-    {
-      "targetId": null,
-      "targetType": null,
-      "value": null,
-      "name": "ecs.capability.execution-role-ecr-pull"
     },
     {
       "targetId": null,
