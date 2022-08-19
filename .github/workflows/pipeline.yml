@@ -3,7 +3,7 @@ name: Push to Docker Hub and deploy to AWS
 on: [push]
 
 env:
-  AWS_REGION: us-east-2                  
+  AWS_REGION: eu-west-2                  
   ECR_REPOSITORY: pipeline_test           
   ECS_SERVICE: sample-app-service         
   ECS_CLUSTER: sample-app-cluster                
